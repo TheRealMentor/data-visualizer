@@ -1,0 +1,56 @@
+.masterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  color: #2980b9;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 8vmin;
+}
+
+.buttonContainer {
+  flex-direction: row;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  margin: 20px 10px;
+}
+
+.stopBtn {
+  background-color: #f44336;
+}
+
+.startBtn {
+  background-color: #27ae60;
+}
+
+.stopBtn:hover,
+.startBtn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status {
+  font-family: "Lato", sans-serif;
+  color: #7f8c8d;
+}
+
+.plot {
+  width: 80vw;
+  height: 80%;
+  background-color: red;
+}
